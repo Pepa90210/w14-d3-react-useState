@@ -13,7 +13,7 @@ const UseState = () => {
       <button onClick={() => setTheme(theme === "dark" ? "light" : "dark")}>
         Toggle Theme
       </button>
-      <h1>{count}</h1>
+      <h1>Count: {count}</h1>
       <button onClick={() => setCount((prevCount) => prevCount + 1)}>
         Increment
       </button>
